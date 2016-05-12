@@ -1,0 +1,12 @@
+*
+!bundle
+!bundle/*
+!pathogen
+!pathogen/*
+!autoload
+!autoload/*
+!bin
+!bin/*
+!vimrc
+!.gitmodules
+!.gitignore
