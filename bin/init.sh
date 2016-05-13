@@ -11,4 +11,13 @@ else
 	exit 1
 fi
 
+echo -n "-- Building YCM..."
+./bundle/YouCompleteMe/install.py --clang-completer
+if [ $? == 0 ]; then
+	printf "\t\tSuccess\n"
+else
+	printf "\t\tFailure\n"
+	exit 1
+fi
+
 popd &> /dev/null
