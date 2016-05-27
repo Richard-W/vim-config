@@ -15,3 +15,6 @@ nnoremap # :NERDTreeToggle<CR>
 
 " Map alternative ESC key
 inoremap jj <ESC>
+
+" Define fallback config for YCM
+let g:ycm_global_ycm_extra_conf = '~/.vim/ycm_conf.py'
