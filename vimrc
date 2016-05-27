@@ -12,3 +12,6 @@ colorscheme solarized
 
 " Map NERDTreeToggle
 nnoremap # :NERDTreeToggle<CR>
+
+" Map alternative ESC key
+inoremap jj <ESC>
