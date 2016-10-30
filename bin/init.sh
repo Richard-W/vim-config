@@ -12,7 +12,9 @@ else
 fi
 
 echo -n "-- Building YCM..."
-./bundle/YouCompleteMe/install.py --clang-completer
+./bundle/YouCompleteMe/install.py \
+	--clang-completer \
+	--racer-completer
 if [ $? == 0 ]; then
 	printf "\t\tSuccess\n"
 else
