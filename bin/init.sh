@@ -3,7 +3,7 @@
 pushd $(dirname $0)/.. &> /dev/null
 
 echo -n "-- Updating submodules..."
-git submodule update --init --recursive
+git submodule update --init --recursive --depth=1
 if [ $? == 0 ]; then
 	printf "\tSuccess\n"
 else
