@@ -7,6 +7,8 @@
 !autoload/*
 !bin
 !bin/*
+!misc
+!misc/*
 !vimrc
 !.gitmodules
 !.gitignore
