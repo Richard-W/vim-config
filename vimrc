@@ -28,3 +28,6 @@ nnoremap gdf :YcmCompleter GoToDefinition<CR>
 nnoremap fxt :YcmCompleter FixIt<CR>
 nnoremap gdd :YcmDiags<CR>
 nnoremap cpr ggO/* Copyright <ESC>:r! date +\%Y<CR>i<BS><ESC>$a <ESC>:r! echo $CPR_NAME<CR>i<BS><ESC>$a <<ESC>:r! echo $CPR_EMAIL<CR>i<BS><ESC>$a> */<ESC>
+
+set tabstop=2
+set expandtab
