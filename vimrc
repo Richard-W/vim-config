@@ -31,3 +31,4 @@ nnoremap cpr ggO/* Copyright <ESC>:r! date +\%Y<CR>i<BS><ESC>$a <ESC>:r! echo $C
 
 set tabstop=2
 set expandtab
+set shiftwidth=2
