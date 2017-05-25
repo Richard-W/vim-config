@@ -28,6 +28,3 @@
 [submodule "misc/--force"]
 	path = misc/--force
 	url = https://github.com/rust-lang/rust
-[submodule "misc/rust"]
-	path = misc/rust
-	url = https://github.com/rust-lang/rust
