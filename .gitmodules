@@ -28,3 +28,6 @@
 [submodule "misc/--force"]
 	path = misc/--force
 	url = https://github.com/rust-lang/rust
+[submodule "bundle/vim-glsl"]
+	path = bundle/vim-glsl
+	url = https://github.com/tikhomirov/vim-glsl
