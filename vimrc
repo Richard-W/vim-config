@@ -20,7 +20,7 @@ inoremap jj <ESC>
 let g:ycm_global_ycm_extra_conf = '~/.vim/ycm_conf.py'
 
 " Define path to rust sources for std autocompletion
-let g:ycm_rust_src_path = $HOME . '/.vim/misc/rust/src'
+let g:ycm_rust_src_path = $HOME . '/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src'
 
 " Define YCM keybindings
 nnoremap gdc :YcmCompleter GoToDeclaration<CR>
