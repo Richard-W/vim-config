@@ -13,8 +13,7 @@ fi
 
 echo -n "-- Building YCM..."
 python3 ./bundle/YouCompleteMe/install.py \
-	--clang-completer \
-	--racer-completer
+	--all
 if [ $? == 0 ]; then
 	printf "\t\tSuccess\n"
 else
