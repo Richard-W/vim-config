@@ -1,26 +1,45 @@
 import os
 
-flags = [
+common_flags = [
     '-Wall',
     '-Wextra',
+]
+
+cxx_flags = [
     '-x',
     'c++',
     '-std=c++14',
 ]
 
+c_flags = [
+    '-x',
+    'c',
+    '-std=c11',
+]
+
 include_dirs = [
-    'include'
+    'include',
+    'build/include',
 ]
 
 for dir in include_dirs:
-    flags.append('-I')
+    common_flags.append('-I')
     if not os.path.basename(__file__).startswith('ycm_conf'):
-        flags.append(os.path.join(os.path.dirname(__file__), dir))
+        common_flags.append(os.path.join(os.path.dirname(__file__), dir))
     else:
-        flags.append(os.path.abspath(dir))
+        common_flags.append(os.path.abspath(dir))
 
 def FlagsForFile(filename):
-  return {
-    'flags': flags,
-    'do_cache': True
-  }
+    flags = []
+    flags.extend(common_flags)
+
+    _, extension = os.path.splitext(filename)
+    if extension == '.c':
+        flags.extend(c_flags)
+    else:
+        flags.extend(cxx_flags)
+
+    return {
+        'flags': flags,
+        'do_cache': True
+    }
