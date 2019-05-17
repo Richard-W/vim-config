@@ -9,6 +9,8 @@
 !bin/*
 !misc
 !misc/*
+!ftplugin
+!ftplugin/*
 !vimrc
 !.gitmodules
 !.gitignore
