@@ -25,6 +25,7 @@ let g:ycm_rust_src_path = $HOME . '/.rustup/toolchains/stable-x86_64-unknown-lin
 " Define YCM keybindings
 nnoremap gdc :YcmCompleter GoToDeclaration<CR>
 nnoremap gdf :YcmCompleter GoToDefinition<CR>
+nnoremap gdr :YcmCompleter GoToReferences<CR>
 nnoremap fxt :YcmCompleter FixIt<CR>
 nnoremap gdd :YcmDiags<CR>
 nnoremap cpr ggO/* Copyright <ESC>:r! date +\%Y<CR>i<BS><ESC>$a <ESC>:r! echo $CPR_NAME<CR>i<BS><ESC>$a <<ESC>:r! echo $CPR_EMAIL<CR>i<BS><ESC>$a> */<ESC>
