@@ -10,24 +10,9 @@
 [submodule "bundle/YouCompleteMe"]
 	path = bundle/YouCompleteMe
 	url = https://github.com/Valloric/YouCompleteMe
-[submodule "bundle/vim-scala"]
-	path = bundle/vim-scala
-	url = https://github.com/derekwyatt/vim-scala
-[submodule "bundle/vim-yaml"]
-	path = bundle/vim-yaml
-	url = https://github.com/stephpy/vim-yaml/
-[submodule "bundle/typescript-vim"]
-	path = bundle/typescript-vim
-	url = https://github.com/leafgarland/typescript-vim
-[submodule "bundle/tabular"]
-	path = bundle/tabular
-	url = https://github.com/godlygeek/tabular
 [submodule "bundle/rust.vim"]
 	path = bundle/rust.vim
 	url = https://github.com/rust-lang/rust.vim
 [submodule "misc/--force"]
 	path = misc/--force
 	url = https://github.com/rust-lang/rust
-[submodule "bundle/vim-glsl"]
-	path = bundle/vim-glsl
-	url = https://github.com/tikhomirov/vim-glsl
