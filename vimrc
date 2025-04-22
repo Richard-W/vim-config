@@ -3,7 +3,7 @@ syntax on
 filetype plugin indent on
 
 " Remove gui elements in gvim
-set guioptions=0
+set guioptions=c
 
 " Configure solarized colors
 set background=dark
