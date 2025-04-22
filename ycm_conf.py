@@ -8,7 +8,7 @@ common_flags = [
 cxx_flags = [
     '-x',
     'c++',
-    '-std=c++14',
+    '-std=c++20',
 ]
 
 c_flags = [
