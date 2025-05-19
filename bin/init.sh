@@ -34,6 +34,7 @@ echo "-- Building YCM..."
 
 ycm_flag --clang-completer
 ycm_flag_if_cmd rustup --rust-completer
+ycm_flag_if_cmd go --go-completer
 
 python3 ./bundle/YouCompleteMe/install.py $ycm_flags
 if [ $? == 0 ]; then
